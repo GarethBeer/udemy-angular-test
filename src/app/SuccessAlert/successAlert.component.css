@@ -1,0 +1,9 @@
+.success-alert {
+  width: 95%;
+  box-sizing: border-box;
+  padding: 10px 5%;
+  margin: 50px auto;
+  background-color: chartreuse;
+
+  border-radius: 10px;
+}
