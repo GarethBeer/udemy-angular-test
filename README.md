@@ -1,5 +1,9 @@
 # MyFirstApp
 
+This my first time using angular. I am following along with Udemy course on angular and this is the first section 'The Basics'
+
+Below is how to get the application up and running.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
 
 ## Development server
