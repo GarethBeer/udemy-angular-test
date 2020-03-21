@@ -1,0 +1,13 @@
+<div class="assignment3">
+  <button (click)="onDetailDisplay()" class="btn btn-primary">
+    Display Details
+  </button>
+  <p *ngIf="details">My name is {{ name }}</p>
+  <p *ngIf="details">My age is {{ age }}</p>
+  <div
+    *ngFor="let click of buttonClicks"
+    [ngStyle]="{ backgroundColor: click >= 5 ? 'blue' : 'transparent' }"
+  >
+    {{ click }}
+  </div>
+</div>

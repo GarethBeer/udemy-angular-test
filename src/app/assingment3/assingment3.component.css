@@ -1,20 +1,11 @@
-.login {
+.assignment3 {
   width: 300px;
   height: 300px;
   margin: 20px;
-  box-sizing: border-box;
-  padding: 10px;
-
   border: 2px solid black;
   border-radius: 10px;
-}
-.login label {
-  text-align: center;
-  width: 100%;
-}
-
-.login .button {
-  width: 100%;
   display: flex;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
 }

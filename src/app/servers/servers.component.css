@@ -1,5 +1,9 @@
 .server {
   margin-top: 20px;
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
