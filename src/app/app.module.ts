@@ -8,6 +8,7 @@ import { ServersComponent } from "./servers/servers.component";
 import { WarningAlertComponent } from "./warning-alert/warning-alert.component";
 import { NavBarComponent } from "./nav-bar/nav-bar.component";
 import { successAlertComponent } from "./SuccessAlert/successAlert.component";
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { successAlertComponent } from "./SuccessAlert/successAlert.component";
     ServersComponent,
     WarningAlertComponent,
     NavBarComponent,
-    successAlertComponent
+    successAlertComponent,
+    LoginComponent
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
