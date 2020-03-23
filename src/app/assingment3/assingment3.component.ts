@@ -17,7 +17,6 @@ export class Assingment3Component implements OnInit {
   onDetailDisplay = () => {
     this.details = !this.details;
     const number = this.buttonClicks.pop();
-    this.buttonClicks.push(number + 1);
-    console.log(this.buttonClicks);
+    this.buttonClicks.push(new Date());
   };
 }
